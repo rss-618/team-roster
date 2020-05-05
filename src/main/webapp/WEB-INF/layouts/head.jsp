@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
 	<c:if test="${empty title}">
-		<title>Spring Boot w/ Bootstrap</title>
+		<title>Ryan's Final Project</title>
 	</c:if>
 	<c:if test="${not empty title}">
-		<title>${title}</title>
+		<title>Team Roster</title>
 	</c:if>
 	
 	<!-- Bootstrap CSS Import -->

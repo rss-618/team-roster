@@ -2,10 +2,10 @@ package edu.missouristate.util;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
-import edu.missouristate.model.Widget;
+import edu.missouristate.model.Player;
 
 public class MSU {
 
-	public static BeanPropertyRowMapper<Widget> WIDGET_BPRM = new BeanPropertyRowMapper<Widget>(Widget.class);
+	public static BeanPropertyRowMapper<Player> PLAYER_BPRM = new BeanPropertyRowMapper<Player>(Player.class);
 
 }
