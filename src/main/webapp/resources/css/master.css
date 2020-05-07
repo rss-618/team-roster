@@ -1,0 +1,9 @@
+.border {
+	border: thin solid gray !important;
+}
+.strong {
+	font-weight: 500 !important;
+}
+#checkPassswordForm {
+	max-width: 500px;
+}
